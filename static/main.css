@@ -3,6 +3,10 @@
   width:400px;
   margin:auto;
   margin-top: 250px;
+  border:4px;
+  }
+  .ad {
+    background: #1c87c9;
   }
   input{
   padding:4px 10px;

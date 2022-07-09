@@ -15,14 +15,7 @@ class Websites(db.Model):
     title = db.Column(db.String(256), primary_key=False)
     about = db.Column(db.Text, primary_key=False)
 
-
-
-@app.route('/')
-def index():
-    return render_template('home.html')
-
-
-@app.route('/search', methods=['POST', 'GET'])
+@app.route('/', methods=['POST', 'GET'])
 def ndex():
     q = request.args.get('q')
 
@@ -46,7 +39,7 @@ def ad():
         try:
             db.session.add(websites)
             db.session.commit()
-            return redirect('/search')
+            return redirect('/')
         except:
             return "Ошибка добавления"
 
