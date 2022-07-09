@@ -10,7 +10,7 @@
   font-size:16px;
   }
   .ad {
-  padding:4px 10px;
+  padding:7px 10px;
   border:0;
   font-size:20px;
   position:absolute;
@@ -20,6 +20,7 @@
   }
 
   .sub {
+   width: 70px;
   padding:4px 10px;
   border:0;
   font-size:15px;
