@@ -10,7 +10,7 @@
   font-size:16px;
   }
   .ad {
-  padding:7px 10px;
+  padding:4px 10px;
   border:0;
   font-size:20px;
   position:absolute;
@@ -20,8 +20,8 @@
   }
 
   .sub {
-   width: 70px;
-  padding:4px 10px;
+  width: 70px;
+  padding:7px 10px;
   border:0;
   font-size:15px;
   position:absolute;
@@ -34,11 +34,12 @@
   border:1;
   font-size:15px;
   position:absolute;
-  left:0.5px;
+  left:0.4px;
   bottom:900px;
   margin-bottom:2
   }
   .sub {
+   width: 70px;
    background-color: #1c87c9;
    color:#ffffff;
   }
