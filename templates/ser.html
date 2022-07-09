@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'main.css')}}">
+    <title>ser</title>
+</head>
+<body>
+<form>
+      <input type="text" name="q" class="ser" placeholder = "Search" value = "{{ request.args.get('q' '') }}" >
+  <input type="submit" name="submit" class="sub" value="Search">
+    </form>
+<form action="/add">
+    <input type="submit" name="submit" class="ad" value="Add">
+</form>
+    {% for el in data %}
+    <div class="site">
+        <a href = "{{el.url_site}}"><h1>{{el.title}}</h1><h2>{{el.url_site}}</h2></a>
+        <h3>{{el.about}}</h3>
+    </div>
+    {%endfor%}
+
+
+</body>
+</html>

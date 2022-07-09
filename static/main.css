@@ -1,0 +1,60 @@
+
+  form {
+  width:400px;
+  margin:auto;
+  margin-top: 250px;
+  }
+  input{
+  padding:4px 10px;
+  border:0;
+  font-size:16px;
+  }
+  .ad {
+  padding:4px 10px;
+  border:0;
+  font-size:20px;
+  position:absolute;
+  left:1800px;
+  bottom:900px;
+  margin-bottom:0
+  }
+
+  .sub {
+  padding:4px 10px;
+  border:0;
+  font-size:15px;
+  position:absolute;
+  left:300px;
+  bottom:900px;
+  margin-bottom:0
+  }
+  .ser {
+  padding:5px 50px;
+  border:0;
+  font-size:15px;
+  position:absolute;
+  left:0;
+  bottom:900px;
+  margin-bottom:0
+  }
+
+  .name, .opis, .url {
+  padding:4px 10px;
+  border:0;
+  font-size:25px;
+  }
+  .search {
+  width: 75%;
+  }
+  .submit{
+  width: 70px;
+  background-color: #1c87c9;
+  color:#ffffff;
+  }
+
+a {
+  color: green;
+}
+body {
+
+}
